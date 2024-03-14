@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        .container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .info {
+            margin-bottom: 20px;
+        }
+        
+        .info p {
+            margin-bottom: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .form-control:focus {
+            border-color: #4caf50;
+        }
+        
+        .button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid #4caf50;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            background-color: #448d40;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Liên hệ</h1>
+        <div class="info">
+         <ul>
+            <li>Kp. 6. P. Linh Trung, Tp. Thủ Đức, Tp. HCM.</li>
+            <li>info@uit.edu.vn</li>
+            <li>+84 28 372 52002</li>
+        </ul> 
+        </div>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Địa chỉ email:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Tiêu đề bài viết:</label>
+                <input type="text" id="title" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="content">Nội dung cần gìn:</label>
+                <textarea id="content" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="button">Gửi tin nhắn</button>
+        </form>
+        <script src="bai3-TH02.js"></script>
+    </div>
+</body>
+</html>
